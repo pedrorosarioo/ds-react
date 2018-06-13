@@ -1,0 +1,103 @@
+@font-face {
+    font-family: fontResume;
+    src: url('../font/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: fontResumeSpan;
+    src: url('../font/OpenSans-Bold.ttf');
+}
+/* PROPRIEDADES GERAIS */
+.centralized{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: -1px auto -1px auto;
+	width: 100%;
+}
+
+.resume{
+	background-color: rgb(45,62,80);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* ---------- LOGO ----------*/
+.logoselly{
+	margin: 120px auto 16px auto;
+	/*background-color: pink;*/
+}
+
+/* ---------- TEXTO H1 ---------- */
+.subtitle1 h1{
+	color: rgb(245,245,247);
+	text-align: center;
+	font-family: fontResume, serif;
+	font-size: 285%;
+	font-weight: lighter;
+}
+
+.subtitle1 span{
+	font-family: fontResumeSpan;
+}
+
+/* ---------- TEXTO H3 ---------- */
+.subtitle2{
+	width: 80%;
+}
+
+.subtitle2 h3{
+	color: rgb(245,245,247);
+	text-align: center;
+	font-family: fontResume;
+	font-weight: lighter;
+}
+
+/* ---------- BOTÕES OPÇÃO ---------- */
+.btnResume{
+	padding: 25px;
+	margin: 70px 15px -1px 15px;
+	background-color: rgb(34,48,61);
+	color: rgb(255,255,255);
+	border-radius: 5px;
+	width: 230px;
+	transition: background-color 0.6s, border-color 0.6s, box-shadow 0.6s;
+}
+
+button.btnResume:hover{
+	background-color: rgb(22,160,134);
+	border-color: rgb(22,160,134);
+	box-shadow: inset 0px -3px rgb(59,212,182);
+}
+
+button.btnResume:focus{
+	outline:none;
+}
+
+.bt1{
+	background-color: rgb(22,160,134);
+	border-color: rgb(22,160,134);
+	box-shadow: inset 0px -3px rgb(59,212,182);
+}
+
+/* ---------- BOTÃO MORE ---------- */
+.more{
+	margin: 100px auto 80px auto;
+}
+
+#btnMore{
+	/*background-image: url('../img/more.png');*/
+	background-color: rgb(45,62,80);
+	border: none;
+	box-shadow: none;
+}
+
+#btnMore:focus{
+	outline: none;
+}
+
+#btnMore:hover{
+	cursor:pointer;
+}
+
