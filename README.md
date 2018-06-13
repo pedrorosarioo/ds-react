@@ -1,2 +1,7 @@
-# ds-react
-Treinando conceitos básicos de React.js
+# DS-React
+Treinando conceitos básicos em React
+
+# Executar (dentro da pasta):
+
+npm i
+npm start
